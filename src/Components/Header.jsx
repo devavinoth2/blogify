@@ -7,7 +7,7 @@ const Header = () => {
         <header className="bg-white shadow-md sticky top-0 z-50">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center py-4">
                 {/* Logo */}
-                <div className="text-2xl font-bold text-blue-600">
+                <div className="text-2xl font-bold text-yellow-500">
                     <a href="/">Blogify</a>
                 </div>
 
@@ -15,25 +15,25 @@ const Header = () => {
                 <nav className="hidden md:flex space-x-6">
                     <a
                         href="/"
-                        className="text-gray-700 hover:text-blue-600 font-medium transition duration-200"
+                        className="text-gray-700 hover:text-yellow-500 font-medium transition duration-200"
                     >
                         Home
                     </a>
                     <a
                         href="/about"
-                        className="text-gray-700 hover:text-blue-600 font-medium transition duration-200"
+                        className="text-gray-700 hover:text-yellow-500 font-medium transition duration-200"
                     >
                         About
                     </a>
                     <a
                         href="/blogs"
-                        className="text-gray-700 hover:text-blue-600 font-medium transition duration-200"
+                        className="text-gray-700 hover:text-yellow-500 font-medium transition duration-200"
                     >
                         Blogs
                     </a>
                     <a
                         href="/contact"
-                        className="text-gray-700 hover:text-blue-600 font-medium transition duration-200"
+                        className="text-gray-700 hover:text-yellow-500 font-medium transition duration-200"
                     >
                         Contact
                     </a>
@@ -44,9 +44,9 @@ const Header = () => {
                     <input
                         type="text"
                         placeholder="Search blogs..."
-                        className="border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                        className="border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400"
                     />
-                    <button className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition duration-200">
+                    <button className="bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600 transition duration-200">
                         Search
                     </button>
                 </div>
@@ -78,25 +78,25 @@ const Header = () => {
                 <nav className="md:hidden bg-white shadow-lg">
                     <a
                         href="/"
-                        className="block py-2 px-4 text-gray-700 hover:bg-gray-100 hover:text-blue-600"
+                        className="block py-2 px-4 text-gray-700 hover:bg-gray-100 hover:text-yellow-500"
                     >
                         Home
                     </a>
                     <a
                         href="/about"
-                        className="block py-2 px-4 text-gray-700 hover:bg-gray-100 hover:text-blue-600"
+                        className="block py-2 px-4 text-gray-700 hover:bg-gray-100 hover:text-yellow-500"
                     >
                         About
                     </a>
                     <a
                         href="/blogs"
-                        className="block py-2 px-4 text-gray-700 hover:bg-gray-100 hover:text-blue-600"
+                        className="block py-2 px-4 text-gray-700 hover:bg-gray-100 hover:text-yellow-500"
                     >
                         Blogs
                     </a>
                     <a
                         href="/contact"
-                        className="block py-2 px-4 text-gray-700 hover:bg-gray-100 hover:text-blue-600"
+                        className="block py-2 px-4 text-gray-700 hover:bg-gray-100 hover:text-yellow-500"
                     >
                         Contact
                     </a>
@@ -104,9 +104,9 @@ const Header = () => {
                         <input
                             type="text"
                             placeholder="Search blogs..."
-                            className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                            className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400"
                         />
-                        <button className="w-full bg-blue-600 text-white px-4 py-2 rounded-md mt-2 hover:bg-blue-700 transition duration-200">
+                        <button className="w-full bg-yellow-500 text-white px-4 py-2 rounded-md mt-2 hover:bg-yellow-600 transition duration-200">
                             Search
                         </button>
                     </div>
